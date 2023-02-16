@@ -1,0 +1,113 @@
+body{
+    font-size: x-large;
+    background-color: #1E2233;
+}
+section{
+    height: 100vh;
+    border-bottom: 2px solid;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -4px;
+    
+}
+
+nav > div:first-of-type > h1{
+    color: #EB5D53;
+} 
+nav > div:first-of-type span{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    padding-left: 48px;
+}
+section:first-of-type{
+    background-color: rgba(0, 0, 0, 0.808);
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/901/838/501/brown-squirrel-wallpaper-preview.jpg");
+    background-size: cover;
+    background-blend-mode: overlay;
+    /* padding-top: 200px; */
+}
+nav >div:first-of-type{
+    margin-left: 520px;
+    
+}
+
+nav > div:last-of-type > a:last-of-type{
+    margin-left: 32px;
+    border: 3px solid;
+    border-color: #EB5D53;
+    padding-right: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 24px;
+}
+
+nav > div:last-of-type > a{
+    padding-left: 24px;
+}
+nav > div:last-of-type > a :nth-child(8){
+    margin-left: 200px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.image{
+    max-width: 50% ;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 200px;
+
+}
+.image img{
+    width: 253px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.image h2{
+    color: #EB5D53;
+    text-transform: capitalize;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+    
+}
+.image p{
+    color: white;
+}
+section:nth-of-type(2){
+    background-color: #1E2233;
+
+}
+section:nth-of-type(2) > div:first-of-type > aside:first-of-type{
+    margin-top: 200px;
+    margin-left: 240px;
+}
+section:nth-of-type(2) > div:first-of-type > aside:nth-of-type(2){
+    margin-left: 900px;
+    margin-top: -672px;
+    margin-right: 160px;
+    color: white;
+}
+#info {
+    margin-left: 940px;
+    margin-top: 100px;
+    color: white;
+    border: 3px solid;
+    border-color: #EB5D53;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: px;
+    margin-right: 160px;
+    
+}
+#info > aside:nth-of-type(2){
+    margin-left: 620px;
+    margin-top: -112px;
+}
