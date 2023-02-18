@@ -134,7 +134,7 @@ section{
     background-color: #24273D;
     color: white;
     margin: 0;
-    height: 120vh;
+    height: 240vh;
 }
 .section3 h3{
     font-size: 2em;
@@ -172,6 +172,21 @@ section{
     color: #24273D;
     background-color: #F95E5A;
 }
+.projects a{
+    text-decoration: none;
+    color: white;
+}
 .projects div h4{
     padding-bottom: 1.2em;
+}
+.certificate > :nth-child(2){
+    max-width: 80em;
+    max-height: 80em;
+    margin-left: 20%;
+}
+.certificate > :nth-child(1) {
+    padding: 0 0 1em 17em;
+}
+.certificate > :nth-child(1) a {
+    color: #F95E5A;
 }
